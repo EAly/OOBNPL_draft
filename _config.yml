@@ -28,7 +28,7 @@ twitter_username: ealy
 github_username:  ealy
 
 # Build settings
-theme: tactile #minima
+theme: minima
 plugins:
   - jekyll-feed
 
