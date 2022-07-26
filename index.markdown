@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+Welcome to the OOBN pattern language homepage!
+
+Are you ready to build some cool OOBNs?
