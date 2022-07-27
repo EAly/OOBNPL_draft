@@ -3,7 +3,6 @@ layout: page
 title: "Making things happen"
 permalink: /mth/
 ---
-# Making things happen
 
 **Version:** 1.0.0
 
@@ -11,15 +10,12 @@ permalink: /mth/
 
 **Modeling phase:**
 
-**Problem:**<details><summary></summary>
-
+**Problem:**
 One of the main applications of BNs is using them to explore the potential behavior of a system after manipulating some variables in that system. In causal BNs, such manipulations are known as *Interventions*. This pattern defines the different types of interventions and how they can be introduced to BNs in an effective manner.
-
-</details>
 
 ***
 
-**Solution:**<details><summary></summary>
+**Solution:**
 
 An *intervention* is an exogenous influence on some system that acts on a certain component of that system. For the causal BN $(G)$ representing that system, an intervention on a variable $v \in G$ transforms $G$ into the extended BN $(G')$ by adding the node $I_v \rightarrow v$ to $G$, where:
 
@@ -59,11 +55,9 @@ In BN models, interventions can be used for several purposes. The most common ar
 
 - Interventions can be used to verify the causal relationship between multiple variables included in the network as well as verifying the faithfulness of the BN to the system it aims to model (see the pattern *"BN causality"* for more details).
 
-</details>
-
 ***
 
-**Structure**<details><summary></summary>
+**Structure**
 The structure for this solution can be shown through the following example:
 
 Consider the model in <b>Figure 2</b> that aims at representing the impacts of innovation, economic efficiency, and equity on the social and environmental components of sustainability. Assume that there is a new policy to be introduced that will reduce some environment related restrictions on industry, and as a consequence will have negative impacts on the environmental component of sustainability. In order to model this intervention, we follow the steps mentioned in the solution section.
@@ -90,11 +84,9 @@ Consider the model in <b>Figure 2</b> that aims at representing the impacts of i
 </p>
 <b>Fig.3</b> The CPT of the <I>Noisy-MAX</I> node <I>Environmental_copy</I>.
 
-</details>
-
 ***
 
-**Constraints**<details><summary></summary>
+**Constraints**
 
 The following assumptions are considered when presenting interventions to BNs:
 
@@ -107,8 +99,6 @@ The following assumptions are considered when presenting interventions to BNs:
 - Interventions should not be confused with observations (check the pattern *BNs Causality* for a comparison between the two concepts). Interventions allow us to perform causal reasoning, while observations are only useful for observational, or probabilistic, reasoning.
 
 - The intervention node and the intervened upon node need to be discrete variables.
-
-</details>
 
 ***
 
