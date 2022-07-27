@@ -17,7 +17,7 @@ One of the main applications of BNs is using them to explore the potential behav
 
 **Solution:**
 
-An *intervention* is an exogenous influence on some system that acts on a certain component of that system. For the causal BN $(G)$ representing that system, an intervention on a variable $v \in G$ transforms $G$ into the extended BN $$(G')$$ by adding the node $$I_v \rightarrow v$$ to $G$, where:
+An *intervention* is an exogenous influence on some system that acts on a certain component of that system. For the causal BN $(G)$ representing that system, an intervention on a variable $v \in G$ transforms $G$ into the extended BN $(G')$ by adding the node $$I_v \rightarrow v$$ to $G$, where:
 
 1. $I_v$ is introduced to intentionally change $v$ so that a target distribution $P^*(v)$ over the states of $v$ is achieved. However, $I_v$ does not restrict the influence of other parents of $v$, which means that the target $P^*(v)$ might not be actually achieved (see below the special case *"perfect intervention"*).
 
