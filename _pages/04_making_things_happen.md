@@ -19,7 +19,7 @@ One of the main applications of BNs is using them to explore the potential behav
 
 An *intervention* is an exogenous influence on some system that acts on a certain component of that system. For the causal BN $(G)$ representing that system, an intervention on a variable $v \in G$ transforms $G$ into the extended BN $(G')$ by adding the node $$I_v \rightarrow v$$ to $G$, where:
 
-1. $I_v$ is introduced to intentionally change $v$ so that a target distribution $P^*(v)$ over the states of $v$ is achieved. However, $I_v$ does not restrict the influence of other parents of $v$, which means that the target $P^*(v)$ might not be actually achieved (see below the special case *"perfect intervention"*).
+1. $I_v$ is introduced to intentionally change $v$ so that a target distribution $$P^*(v)$$ over the states of $v$ is achieved. However, $I_v$ does not restrict the influence of other parents of $v$, which means that the target $P^*(v)$ might not be actually achieved (see below the special case *"perfect intervention"*).
 
 2. $I_v$ is a parent of $v$.
 
@@ -64,7 +64,7 @@ Consider the model in <b>Figure 2</b> that aims at representing the impacts of i
 
 1. First define the variables that will be targeted by the intervention, which is *Environmental* in this case.
 
-2. Then we define the intervention variable $I_env$ as a binary variable that has the states $\{present, absent\}$. After that we define the probability distribution implied by $I_{env}$ on the states of *environmental*. If we are certain that the intervention will cause *environmental* to be in the *low* state, then the probability distribution should be $p(environmental=low|I_{env}=present)=1$. However, we assume that we are uncertain about the impacts of $I_{env}$, hence, $p(environmental=low|I_{env}=present)=0.7$.
+2. Then we define the intervention variable $I_env$ as a binary variable that has the states $\{present, absent\}$. After that we define the probability distribution implied by $I_{env}$ on the states of *environmental*. If we are certain that the intervention will cause *environmental* to be in the *low* state, then the probability distribution should be $p(environmental=low \vert I_{env}=present)=1$. However, we assume that we are uncertain about the impacts of $I_{env}$, hence, $p(environmental=low \vert I_{env}=present)=0.7$.
 
 3. We create $G'$, shown in <b>Figure 2, (b)</b>, by copying the network in <b>Figure 2, (a)</b> and substituting *Environmental* with the a node of *Noisy-MAX* type.
 
