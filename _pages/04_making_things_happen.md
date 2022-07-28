@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Making things happen"
-permalink: /mth/
+permalink: /mth
 ---
 
 **Version:** 1.0.0
@@ -43,7 +43,7 @@ In order to properly introduce interventions to the model, BN users are advised 
 
 4. In $G'$ add $I_{v_i}$ as a parent for $v_i$.
 
-5. Modify the CPT of $v_i$ to show the desired effect of $I_{v_i}$, e.g. $p(S_{v_i} = \{s_1, s_2\}|I_{v_i}=present) = \{1, 0\}$ which means that the probabilities of the $v_i$ states $s_1$ and $s_2$ given that the intervention $I_{v_i}$ is present are $1$ and $0$ respectively. Such distribution implies that we are forcing $s_1$. The probabilities of the other parents of $v_i$ will be similar to their original probabilities in $G$.
+5. Modify the CPT of $v_i$ to show the desired effect of $I_{v_i}$, e.g. $p(S_{v_i} = \{s_1, s_2\} \vert I_{v_i}=present) = \{1, 0\}$ which means that the probabilities of the $v_i$ states $s_1$ and $s_2$ given that the intervention $I_{v_i}$ is present are $1$ and $0$ respectively. Such distribution implies that we are forcing $s_1$. The probabilities of the other parents of $v_i$ will be similar to their original probabilities in $G$.
 
 6. Changing the states of the intervention variable $I_{v_i}$ will then reflect the effect of intervention on the variables in the network.
 
