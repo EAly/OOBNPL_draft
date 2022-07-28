@@ -33,6 +33,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
+defaults: # to define a default front matter that will apply for certain files 
+  -
+    scope:
+      path: "_posts" # which files do you want these default front matter to be applied to, here for example it'll be applied to the files in posts
+    values:
+      layout: "post"
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
