@@ -1,7 +1,7 @@
 --- 
 layout: page
-title: Model assumptions statement
-permalink: /Model_assumptions_statement/
+title: "Model assumptions statement"
+permalink: /Model_assumptions_statement
 author: ealy 
 --- 
  

@@ -1,7 +1,7 @@
 --- 
 layout: page
-title: OOBN polymorphism
-permalink: /OOBN_polymorphism/
+title: "OOBN polymorphism"
+permalink: /OOBN_polymorphism
 author: ealy 
 --- 
  

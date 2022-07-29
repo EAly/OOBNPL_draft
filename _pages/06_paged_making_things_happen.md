@@ -1,7 +1,7 @@
 --- 
 layout: page
-title: Making things happen
-permalink: /Making_things_happen/
+title: "Making things happen"
+permalink: /Making_things_happen
 author: ealy 
 --- 
  

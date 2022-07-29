@@ -1,7 +1,7 @@
 --- 
 layout: page
-title: Local dependence confirmation
-permalink: /Local_dependence_confirmation/
+title: "Local dependence confirmation"
+permalink: /Local_dependence_confirmation
 author: ealy 
 --- 
  
