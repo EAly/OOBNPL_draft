@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Making things happen"
-permalink: /:path
+permalink: /OOBNPL_draft/:path
 ---
 
 **Version:** 1.0.0

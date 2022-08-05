@@ -1,10 +1,12 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /OOBNPL_draft/:path
 ---
 
-<h2>{{ Sample patterns list }}</h2>
+
+### New patterns list
+
 <ul>
     {% for item in site.pages %}
         {% if item.layout == "page" %}
