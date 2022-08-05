@@ -4,10 +4,12 @@ title: About
 permalink: /about/
 ---
 
-<h2>{{ site.data.pattList.patterns_list }}</h2>
+<h2>{{ Patterns list }}</h2>
 <ul>
-    {% for item in site.data.pattList.pats %}
-        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% for item in site.pages %}
+        {% if item.layout == "page" %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endif %}
     {% endfor %}
 </ul>
 
