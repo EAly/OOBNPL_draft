@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<h2>{{ Patterns list }}</h2>
+<h2>{{ Sample patterns list }}</h2>
 <ul>
     {% for item in site.pages %}
         {% if item.layout == "page" %}

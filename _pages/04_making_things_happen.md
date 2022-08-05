@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Making things happen"
-permalink: /mth
+permalink: /:path
 ---
 
 **Version:** 1.0.0
