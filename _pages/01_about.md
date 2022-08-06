@@ -4,12 +4,12 @@ title: About (without permalink)
 ---
 
 
-### Some patterns list
+### Some other patterns list
 
 <ul>
     {% for item in site.pages %}
         {% if item.layout == "page" %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            <li><a href="{{site.url}}{{ item.url }}">{{ item.title }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
