@@ -22,7 +22,7 @@ title: OOBNPL JKDI
 email: ealy@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   This a webiste that contains a pattern language to help in building OOBN to model complex systems. This is a draft website built using Jekyll tutorial on Github pages.
-baseurl: "/OOBNPL_draft" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog  #/OOBNPL_draft
 url: "https://OOBNPL_JD1.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ealy
 github_username:  ealy
