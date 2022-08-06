@@ -4,7 +4,7 @@ title: About (without permalink)
 ---
 
 
-### Some other patterns list
+### Yet another patterns list
 
 <ul>
     {% for item in site.pages %}
